@@ -190,8 +190,6 @@ void Interpolation(HWND hWnd, BITMAPINFOHEADER sih, HBITMAP& hBitmap){
 		}
 	}
 
-	DeleteObject(hBitmap);
-	
 	HDC hMemDC = CreateCompatibleDC(hdc);
 	if(hBitmap != NULL){
 		DeleteObject(hBitmap);
